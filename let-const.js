@@ -28,9 +28,12 @@ const student = {
 student.name = 'shakib';
 student.address = 'noakhali';
 console.log(student);
+
+let sum = 0;
 for( let i=0; i<numbers.length;i++)
 {
     const number = numbers[i];
+    sum = sum+number;
     console.log(number)
 }
 
