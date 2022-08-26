@@ -26,3 +26,20 @@ const doMath = (x,y,z) => {
     const result = multiplyResult/2;
     return result;
 }
+
+/*
+ Arrow Function: Arrow function is one of the feature introduced in the ES6 version of JavaScript. It allows you to create function in a cleaner way compared to regular functions.
+
+
+ Normal Function Declar:
+   function add(a,b){
+    return a+b;
+   }
+
+   Arrow Function Declare:
+    const add =(a,b)=> a+b;
+
+  
+
+
+*/
