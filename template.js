@@ -1,5 +1,7 @@
 // Template string, multiple line string, dynamic string
 
+// Template Literals: Template literals are enclosed by backtrick(`)charcters instead of double or single quoted, allowing for the following: 1) multi-line string; 2) string interpolation.
+
 const person = 'Shafrin';
 const person2 = 'ahamed';
 const person3 = `Shakib`;
@@ -25,6 +27,5 @@ const summary = 'sum of:' + a + '  and  '+ b +' is:'+(a+b);
 // console.log(summary);
 
 // present system using template string
-
 const newSummary = `sum of ${a} and ${b} is: ${a+b}`;
 console.log(newSummary);
