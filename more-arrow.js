@@ -17,3 +17,12 @@ const doubleIt = (num) => num*2;
 const fiveTimes = num => num *5;
 
 
+// multi line arrow function
+// if you want to return somethingm use the return
+const doMath = (x,y,z) => {
+    const firstSun = x+y;
+    const secondSum = y+z;
+    const multiplyResult = firstSun * secondSum;
+    const result = multiplyResult/2;
+    return result;
+}
