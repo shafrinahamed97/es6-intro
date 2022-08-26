@@ -39,7 +39,44 @@ const doMath = (x,y,z) => {
    Arrow Function Declare:
     const add =(a,b)=> a+b;
 
-  
+      */
 
+    /*
+       Difference between Arrow function and Regular function:
 
-*/
+        Arrow function: If the arrow fucntion contains one expression, you can omit the curly braces, and then the expression will be implicity.
+         // ES6
+          let add = (x,y)=> x+y;
+
+          Regular function: If regular function, you have to use return keyword to return any value. If you do not return anything then the function will return undefined.
+          //ES5
+           function add(x,y)
+           {
+            return x+y;
+           }
+
+      Arrow Function:
+      Arrow function do not have their own this
+       let me={
+        name = "john",
+        thisInArrow:() =>
+        {
+            console.log("My name is " + this.name);
+        },
+       };
+        me.thisInArrow();
+        //My name is undefined
+
+        Regular Function:
+         Regular functions have their own this
+
+         let me = {
+            name: "john",
+            thisInRegular(){
+
+                console.log("My name is " + this.name);
+            },
+         };
+         // My name is John
+    */
+
